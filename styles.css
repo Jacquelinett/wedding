@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+}
+
+h2 {
+    margin-left: 60px;
+    line-height: 50px;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+nav ul {
+    padding: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    background-color: #42444E;
+}
+
+.content {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content img {
+    margin: 0 auto;
+    background-color: aqua;
+    width: 500px;
+}
