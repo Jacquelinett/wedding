@@ -1,10 +1,6 @@
 body {
     margin: 0px;
-}
-
-h2 {
-    margin-left: 60px;
-    line-height: 50px;
+    font-family: 'Lato', sans-serif;
 }
 
 nav {
@@ -26,18 +22,27 @@ nav li {
     justify-content: space-between;
     width: 800px;
     margin: 0 auto;
-    color: white;
     background-color: #42444E;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation h2 {
+    margin-left: 60px;
+    line-height: 50px;
 }
 
 .content {
     width: 800px;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 60px;
 }
 
 .content img {
     margin: 0 auto;
-    background-color: aqua;
     width: 500px;
 }
